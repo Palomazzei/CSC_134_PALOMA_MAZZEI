@@ -13,8 +13,14 @@ using namespace std;
 #include <cmath>
 
 int main(){
-    int num1 = 9;
-    int squareRoot = sqrt(num1);
+    //declare the variable for this program
+    double num1;
+    //ask the user to enter a number and store it in the variable num1
+    cout << "Enter a number: ";
+    cin >> num1;
+    //calculate the square root of num1
+    double squareRoot = sqrt(num1);
+    //print results
     cout << "The square root of " << num1 << " is: " << squareRoot << endl;
     return 0;
 }  
