@@ -11,9 +11,14 @@
 using namespace std;
 
 int main(){
-   //declares two floating-point numbers
-    float number01 = 2.49597; 
-    float number02 = 1.989; 
+   //declares two floating-point numbers and prompt users for them
+    float number01; 
+    float number02; 
+
+    cout <<"Enter the first number: ";
+    cin >> number01;
+     cout <<"Enter the second number: ";
+    cin >> number02;
 
     //adds the two numbers together and stores the result in a new variable called "addition"
     float addition = number01 + number02; 
