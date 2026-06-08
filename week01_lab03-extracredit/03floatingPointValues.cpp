@@ -12,8 +12,8 @@ using namespace std;
 
 int main(){
    //declares two floating-point numbers
-    float number01 = 1.495979E11; 
-    float number02 = 1.989E30; 
+    float number01 = 2.49597; 
+    float number02 = 1.989; 
 
     //adds the two numbers together and stores the result in a new variable called "addition"
     float addition = number01 + number02; 
