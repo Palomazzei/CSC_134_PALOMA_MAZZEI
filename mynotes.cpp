@@ -19,10 +19,11 @@ int main(){
 
 //To EXECUTE this program:
 //1. go to the triangle icon and select "TERMINAL"
-//2. Write "g++ fileName.cpp"
-//2. In case of folders: Write "./folderName/a.exe" or "./folderName/a.out" to run the program
-//3. Windows users: Write "./a.exe" to run the program 
-//3. Apple users: Write "./a.out" to run the program 
+//2. In case of folders: Write "cd folderName"
+//3. Write "g++ fileName.cpp"
+//4. Windows users: Write "./a.exe" to run the program 
+//4 Apple users: Write "./a.out" to run the program 
+
 
 
 
@@ -40,3 +41,4 @@ int main(){
 //C++ STRING CLASS:   (BOOK PAGE 54)
 //Standard C++ provides a special data type for storing and working with strings.
 //standard C++ provides something called the  class that allows the programmer to create a  type variable.
+

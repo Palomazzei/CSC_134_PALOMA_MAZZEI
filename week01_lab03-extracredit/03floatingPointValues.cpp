@@ -12,11 +12,11 @@ using namespace std;
 
 int main(){
    //declares two floating-point numbers
-    double number01 = 1.495979E11; 
-    double number02 = 1.989E30; 
+    float number01 = 1.495979E11; 
+    float number02 = 1.989E30; 
 
     //adds the two numbers together and stores the result in a new variable called "addition"
-    double addition = number01 + number02; 
+    float addition = number01 + number02; 
     
 
     //print resuls to the console
