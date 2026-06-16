@@ -27,7 +27,7 @@ int main(){
         cout << "The number " << number << " is even."<< endl;  //if the number is evenly division by 2, it is an even number.
    }
    else {
-        cout << "The number " << number << " is odd."<< endl;
+        cout << "The number " << number << " is odd."<< endl;    //if the number is NOT evenly division by 2, it is an odd number.
     }
 
    return 0;

@@ -26,7 +26,7 @@ int main(){
    cout << fixed << setprecision(2);   
    cout << "The average of your three numbers is: " << average << endl;
 
-   //
+   //print the letter grade based on the average number grade:
    if (average >= 90 && average <= 100){        //if number grade is between 90 and 100, then print the letter grade of A
         cout << "Letter grade: A" << endl;
    }
@@ -43,7 +43,7 @@ int main(){
         cout << "Letter grade: F" << endl;
    }
    else {
-        cout <<"Invalid test score." << endl;  //in case of values less than 0 and greater than 100   
+        cout <<"Invalid test score." << endl;  //in case of values less than 0 or greater than 100   
    }
 
    return 0;

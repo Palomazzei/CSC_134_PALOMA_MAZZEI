@@ -7,7 +7,7 @@
 //include the iostream library for input and output operations
 #include <iostream>
 #include <iomanip> //input/output manipulator
-#include <cctype>  //character case 
+#include <cctype>  //character case type
 //use the standard namespace to avoid prefixing standard library names with "std::"
 using namespace std;
 
