@@ -4,12 +4,10 @@
 @purpose: This program will determine if the single character is a vowel or consonant.
 */
 
-//include the iostream library for input and output operations
-#include <iostream>
-#include <iomanip> //input/output manipulator
+#include <iostream> //include the iostream library for input and output operations
 #include <cctype>  //character case type
-//use the standard namespace to avoid prefixing standard library names with "std::"
-using namespace std;
+using namespace std; //use the standard namespace to avoid prefixing standard library names with "std::"
+
 
 int main(){
     //declare variable to hold the input:
@@ -44,5 +42,5 @@ int main(){
             cout <<"Your letter "<< letter << " is consonant." << endl;
         }
     }
-    return 0;
+    return 0; //return 0 to indicate successful program termination
 }

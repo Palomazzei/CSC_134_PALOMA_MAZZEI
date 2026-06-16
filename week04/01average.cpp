@@ -4,11 +4,10 @@
 @purpose: This program will calculate the average of three integer values and print the result.
 */
 
-//include the iostream library for input and output operations
-#include <iostream>
+
+#include <iostream> //include the iostream library for input and output operations
 #include <iomanip> //input/output manipulator
-//use the standard namespace to avoid prefixing standard library names with "std::"
-using namespace std;
+using namespace std;    //use the standard namespace to avoid prefixing standard library names with "std::"
 
 int main(){
     //declare variables:
@@ -23,10 +22,12 @@ int main(){
    average = (value1 + value2 + value3) / 3.0;
 
    //display results:
-   cout << fixed << setprecision(2);   
+   cout << fixed << setprecision(2);    //set output to show two decimal places
    cout << "The average of your three numbers is: " << average << endl;
 
-   //BOOK 118: 
-   //When the FIXED and SETPRECISION manipulators are used together, the value specified by the SETPRECISION manipulator will be the number of digits to appear after the decimal point. 
+   return 0;    //return 0 to indicate successful program termination
 }
+
+//BOOK 118: 
+//When the FIXED and SETPRECISION manipulators are used together, the value specified by the SETPRECISION manipulator will be the number of digits to appear after the decimal point. 
 

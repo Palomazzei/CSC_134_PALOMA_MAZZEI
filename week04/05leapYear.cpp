@@ -1,40 +1,34 @@
 /*
 @author: Paloma Mazzei
 @date: 06/15/2026
-@purpose: This program will accepts a year from a user and determines if the year is a leap year
+@purpose: This program will accepts a year from a user and determines if the year is a leap year or not.
 */
 
-//include the iostream library for input and output operations
-#include <iostream>
-#include <iomanip> //input/output manipulator
-//use the standard namespace to avoid prefixing standard library names with "std::"
-using namespace std;
+#include <iostream> //include the iostream library for input and output operations
+using namespace std; //use the standard namespace to avoid prefixing standard library names with "std::"
+
 
 int main(){
-    //declare variables to hold the values:
-   int year;
-   int rule1, rule2, rule3;
+    //declare variables to hold values:
+   int year;    //year given by the user
+   int condition1, condition2, condition3;  //three conditions based on the rules
    
-
-   //prompt user for a year:
+   //prompt user for a year and read it:
    cout <<"Enter a year: ";   
    cin >> year; 
 
-   //calculates based on rules for leap year:
-   rule1 = year % 400;
-   rule2 = year % 4;
-   rule3 = year % 100;
+   //use modulus operator to check the three conditions:
+   condition1 = year % 400;     // multiple of 400
+   condition2 = year % 4;       // multiple of 4
+   condition3 = year % 100;     // multiple of 100
 
-   
-   //if condition following the rules:
-   //1. The year is a multiple of 400.
-   //2. The year is a multiple of 4 but not a multiple of 100.
-   if (rule1 == 0 || (rule2 == 0 && rule3 != 0)){
-            cout << "The year you entered " << year << " is a leap year." << endl;
+    //display results based on the rules: 
+   if (condition1 == 0 || (condition2 == 0 && condition3 != 0)){        //if the the year is a multiple of 400 OR the year is a multiple of 4 but NOT a multiple of 100
+        cout << "The year you entered " << year << " is a leap year." << endl;     //output message if the year is lead 
     }
     else {
-        cout << "The year you entered " << year << " is NOT a leap year." << endl;
+        cout << "The year you entered " << year << " is NOT a leap year." << endl;  ///output message if the year is Not lead
     }
 
-    return 0;
+    return 0;   //return 0 to indicate successful program termination
 }

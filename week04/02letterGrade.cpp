@@ -4,11 +4,10 @@
 @purpose: This program will uses the 1st program (01average.cpp) and print the letter grade based on the number grade.
 */
 
-//include the iostream library for input and output operations
-#include <iostream>
+#include <iostream> //include the iostream library for input and output operations
 #include <iomanip> //input/output manipulator
-//use the standard namespace to avoid prefixing standard library names with "std::"
-using namespace std;
+using namespace std; //use the standard namespace to avoid prefixing standard library names with "std::"
+
 
 int main(){
     //declare variables:
@@ -22,8 +21,8 @@ int main(){
    //calculate the average value:
    average = (value1 + value2 + value3) / 3.0;
 
-   //display results:
-   cout << fixed << setprecision(2);   
+   //display the average number value:
+   cout << fixed << setprecision(2);   //set output to show two decimal places
    cout << "The average of your three numbers is: " << average << endl;
 
    //print the letter grade based on the average number grade:
@@ -46,5 +45,5 @@ int main(){
         cout <<"Invalid test score." << endl;  //in case of values less than 0 or greater than 100   
    }
 
-   return 0;
+   return 0;   //return 0 to indicate successful program termination
 }

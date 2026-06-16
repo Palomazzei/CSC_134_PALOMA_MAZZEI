@@ -4,11 +4,8 @@
 @purpose: This program will use the modulo operator to determine if the number entered is even or odd.
 */
 
-//include the iostream library for input and output operations
-#include <iostream>
-#include <iomanip> //input/output manipulator
-//use the standard namespace to avoid prefixing standard library names with "std::"
-using namespace std;
+#include <iostream> //include the iostream library for input and output operations
+using namespace std; //use the standard namespace to avoid prefixing standard library names with "std::"
 
 int main(){
     //declare variables to hold values:
@@ -24,11 +21,11 @@ int main(){
 
    //display results:
    if (result == 0){        
-        cout << "The number " << number << " is even."<< endl;  //if the number is evenly division by 2, it is an even number.
+        cout << "The number " << number << " is even."<< endl;  //if the remainder from division by 2 is zero, it is an even number.
    }
    else {
-        cout << "The number " << number << " is odd."<< endl;    //if the number is NOT evenly division by 2, it is an odd number.
+        cout << "The number " << number << " is odd."<< endl;    //if the remainder from division by 2 is NOT zero, it is an odd number.
     }
 
-   return 0;
+   return 0;   //return 0 to indicate successful program termination
 }
