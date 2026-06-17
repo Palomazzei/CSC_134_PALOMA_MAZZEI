@@ -18,12 +18,13 @@ int main(){
    cin >> year; 
 
    //use modulus operator to check the three conditions:
-   condition1 = year % 400;     // multiple of 400
-   condition2 = year % 4;       // multiple of 4
-   condition3 = year % 100;     // multiple of 100
+   condition1 = year % 400;     // multiple of 400?
+   condition2 = year % 4;       // multiple of 4?
+   condition3 = year % 100;     // multiple of 100?
+   //if the remainder is zero, the year is a multiple
 
     //display results based on the rules: 
-   if (condition1 == 0 || (condition2 == 0 && condition3 != 0)){        //if the the year is a multiple of 400 OR the year is a multiple of 4 but NOT a multiple of 100
+   if (condition1 == 0 || (condition2 == 0 && condition3 != 0)){     //if the the year is a multiple of 400 OR the year is a multiple of 4 but NOT a multiple of 100
         cout << "The year you entered " << year << " is a leap year." << endl;     //output message if the year is lead 
     }
     else {
