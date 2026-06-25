@@ -11,7 +11,7 @@ using namespace std; //use the standard namespace to avoid prefixing standard li
 
 int main(){
 
-    //create a variable to track the number of iterations through the loop
+    //create a variable counter(accumulator) to track the number of iterations through the loop
     int count = 0;
 
     //loop while count is less than 100 (because count start at 0)
