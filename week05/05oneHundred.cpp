@@ -17,7 +17,7 @@ int main(){
     //loop while count is less than 100 (because count start at 0)
     while (count < 100){    
         count = count + 1;
-        cout << "Iteration number " << count << endl;   //this helps me to track each iteration
+        //cout << "Iteration number " << count << endl;   //this helps me to track each iteration
     }
 
     //print the a message on the console that tells the user how many iterations were completed
