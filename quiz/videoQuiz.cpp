@@ -1,48 +1,65 @@
-#include <iostream>
+/*
+@editor: Paloma Mazzei
+@date: 06/29/2026
+@purpose: In this program, I will add the required comments to explain each section.
+*/
 
-using namespace std;
+#include <iostream>     //include the iostream library for input and output operations
+
+using namespace std;    //use the standard namespace to avoid prefixing standard library names with "std::"
+
 
 int main()
 {
-    int score;
-    int count = 0;
-    int passingScores = 0;
-    float total = 0.0f;
-    bool continueEntering = true;
+    // initialize variables:
+    int score;                      //stores user input score
+    int count = 0;                  //stores how many Scores where Entered
+    int passingScores = 0;          //stores how many users have a passing score
+    float total = 0.0f;             //stores the sum of all the scores
+    bool continueEntering = true;   //controls the while loop
 
+    // create a while loop that runs until the user doesn't enter any more test scores
     while (continueEntering)
     {
+        //prompt user for a score:
         cout << "Enter a test score (0 - 100): ";
         cin >> score;
 
-        total += score;
-        count++;
+        total += score;     //sum all input scores
+        count++;            //increment count by one
 
+        //if the score is greater than or equal to 70, increment passingScores by one
         if (score >= 70)
         {
             passingScores++;
         }
 
+        //ask the user if they want to keep entering test scores
         cout << "Enter another score? (1 for true, 0 for false): ";
         cin >> continueEntering;
     }
 
+    // initialize a variable to hold the average test grade
     float average = 0.0f;
 
+    // if the count is grater than 0, calculate the average test grade
     if (count > 0)
     {
-        average = total / count;
+        average = total / count;    //sum of scores divide by number of scores
     }
 
+    // display results to the console
     cout << "\nResults" << endl;
     cout << "-------" << endl;
     cout << "Scores Entered: " << count << endl;
     cout << "Passing Scores: " << passingScores << endl;
     cout << "Average Score: " << average << endl;
 
-    bool classPassed = average >= 70.0f;
 
+    // initialize a variable that determinates whether the average score is greater than or equal to 70
+    bool classPassed = average >= 70.0f;    //this can be true(1) or false(0)
+    // display result to the console
     cout << "Class Average Passing: " << classPassed << endl;
 
-    return 0;
+    return 0;   //return 0 to indicate successful program termination
 }

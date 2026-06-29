@@ -17,7 +17,7 @@ int main(){
     //create a variable to control the loop:
     int count = 0;
 
-    //while loop to 
+    //while loop  
     while (count < 10){ 
         //prompt user for a grade
         cout << "Enter your grades and I will average them: ";   
