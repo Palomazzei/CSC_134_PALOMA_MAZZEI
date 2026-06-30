@@ -1,7 +1,8 @@
 /*
 @editor: Paloma Mazzei
 @date: 06/29/2026
-@purpose: In this program, I will add the required comments to explain each section.
+@purpose: This program will prompt the user to enter one or more scores, then calculate the number of scores entered, the number of passing scores, the average score, and determinate whether the class average passing or not.
+In this program, I will add all the required comments to explain each section.
 */
 
 #include <iostream>     //include the iostream library for input and output operations
@@ -11,10 +12,10 @@ using namespace std;    //use the standard namespace to avoid prefixing standard
 
 int main()
 {
-    // initialize variables:
-    int score;                      //stores user input score
+    // initialize variables and assign values when appropiate:
+    int score;                      //stores user input test score
     int count = 0;                  //stores how many Scores where Entered
-    int passingScores = 0;          //stores how many users have a passing score
+    int passingScores = 0;          //stores how many tests have a passing score
     float total = 0.0f;             //stores the sum of all the scores
     bool continueEntering = true;   //controls the while loop
 
