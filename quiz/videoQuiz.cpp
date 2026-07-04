@@ -1,8 +1,9 @@
 /*
 @editor: Paloma Mazzei
 @date: 06/29/2026
-@purpose: This program will prompt the user to enter one or more scores, then calculate the number of scores entered, the number of passing scores, the average score, and determinate whether the class average passing or not.
-In this program, I will add all the required comments to explain each section.
+@purpose: This program will prompt the user to enter one or more scores, then calculate the number of scores entered, the number of 
+            passing scores, the average score, and determinate whether the class average passing or not.
+            In this program, I will add all the required comments to explain each section.
 */
 
 #include <iostream>     //include the iostream library for input and output operations
