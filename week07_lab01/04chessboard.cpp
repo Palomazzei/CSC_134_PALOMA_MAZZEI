@@ -24,15 +24,15 @@ int main(){
         if (i % 2 != 0){
             
             //loop over each columns:
-            for (int element = 0; element <= rows; element++) {
+            for (int element = 1; element <= rows; element++) {
                     
-                if (element % 2 == 0){          //if the element (that started at 0) is even, print "*"
+                if (element % 2 != 0){          //if the element (that started at 1) is odd, print "*"
                     cout <<"*";
-                } else {                        //if the element (that started at 0) is odd, print " "
+                } else {                        //if the element (that started at 1) is even, print " "
                     cout<<" ";
                 }
             
-                if (element == rows-1)          //break the loop when the element (that started at 0) is equal to the number of rows-1
+                if (element == rows)          //break the loop when the element (that started at 1) is equal to the number of rows
                 break;
         } } 
 
@@ -40,15 +40,15 @@ int main(){
         else {
 
             //loop over each columns:
-            for (int element = 0; element <= rows; element++) {
+            for (int element = 1; element <= rows; element++) {
                 
-                if (element % 2 == 0){          //if the element (that started at 0) is even, print " "
+                if (element % 2 != 0){          //if the element (that started at 1) is odd, print " "
                     cout <<" ";
                 } else {
-                    cout<<"*";                  //if the element (that started at 0) is odd, print " "
+                    cout<<"*";                  //if the element (that started at 1) is even, print " "
                 }
             
-                if (element == rows-1)          //break the loop when the element (that started at 0) is equal to the number of rows-1
+                if (element == rows)          //break the loop when the element (that started at 1) is equal to the number of rows
                 break;
         } }
 
