@@ -32,8 +32,6 @@ int main(){
                     cout<<" ";
                 }
             
-                if (element == rows)          //break the loop when the element (that started at 1) is equal to the number of rows
-                break;
         } } 
 
         //If the row number is even:
@@ -48,8 +46,6 @@ int main(){
                     cout<<"*";                  //if the element (that started at 1) is even, print " "
                 }
             
-                if (element == rows)          //break the loop when the element (that started at 1) is equal to the number of rows
-                break;
         } }
 
 
