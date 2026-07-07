@@ -41,10 +41,10 @@ int main(){
     //display the amount that the user is over or under budget
     difference = budgeted - totalExpenses;
     if (difference > 0) {
-        cout << "The amount under budget is: $" << difference << endl;
+        cout << "The amount under budget is: $" << difference << endl;      //Under budget = you spent less than planned
     } 
     else if (difference < 0) {
-        cout << "The amount over budget is: $" << -difference << endl;
+        cout << "The amount over budget is: $" << -difference << endl;      //Over budget = you spent more than planned
     }
     else {
         cout << "Your budget and expenses are the same." << endl;
