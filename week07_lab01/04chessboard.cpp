@@ -27,9 +27,9 @@ int main(){
             for (int element = 1; element <= rows; element++) {
                     
                 if (element % 2 != 0){          //if the element (that started at 1) is odd, print "*"
-                    cout <<"*";
+                    cout <<"* ";                    //I add one more space after the '*' so it looks better in the console
                 } else {                        //if the element (that started at 1) is even, print " "
-                    cout<<" ";
+                    cout<<"  ";
                 }
             
         } } 
@@ -41,9 +41,9 @@ int main(){
             for (int element = 1; element <= rows; element++) {
                 
                 if (element % 2 != 0){          //if the element (that started at 1) is odd, print " "
-                    cout <<" ";
-                } else {
-                    cout<<"*";                  //if the element (that started at 1) is even, print " "
+                    cout <<"  ";
+                } else {                        //if the element (that started at 1) is even, print " "
+                    cout<<"* ";                     //I add one more space after the '*' so it looks better in the console
                 }
             
         } }
