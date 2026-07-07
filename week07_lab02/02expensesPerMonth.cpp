@@ -21,7 +21,7 @@ int main(){
     cout << "What is your budget for a month?: ";
     cin >> budgeted;
 
-    //loop until the user has no more expenses
+    //loop until the user has no more expenses to enter
     //BOOK PAGE 254 for do-while loop
     do
     {
@@ -36,7 +36,7 @@ int main(){
         cout << "Do you want to enter an additional expense? (Y/N): ";
         cin >> again;
 
-    } while (again == 'y' || again == 'Y');
+    } while (again == 'y' || again == 'Y');     
     
     //display the amount that the user is over or under budget
     difference = budgeted - totalExpenses;

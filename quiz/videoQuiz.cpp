@@ -21,7 +21,7 @@ int main()
     bool continueEntering = true;   //controls the while loop
 
     // create a while loop that runs until the user doesn't enter any more test scores
-    while (continueEntering)
+    while (continueEntering)        //this can be an infinitive loop if the user always choose '1', or it can fail if the user enters an invalid input
     {
         //prompt user for a score:
         cout << "Enter a test score (0 - 100): ";
