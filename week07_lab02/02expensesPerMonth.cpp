@@ -25,7 +25,7 @@ int main(){
     //BOOK PAGE 254 for do-while loop
     do
     {
-        // prompt the user to enter each of their expenses for the month
+        //prompt the user to enter each of their expenses for the month
         cout << "What are your expenses for a month?: ";
         cin >> expenses;
 
