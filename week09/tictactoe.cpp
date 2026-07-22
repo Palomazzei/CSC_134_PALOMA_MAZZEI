@@ -168,6 +168,7 @@ int main(){
                                     table[0][2] == "O" && table [1][1] == "O" && table [2][0] == "O" ) {        //anti diagonal
                                     cout << "Congratulations! Player 02 won! \n";
                                     endGame = true;
+                                    endTurn = true;
                                 } else {
                                 endTurn = true;
                                 }
@@ -181,4 +182,6 @@ int main(){
     }
 
 }
+    return 0;   //return 0 to indicate successful program termination
+
 }
